@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.eve/
+.vercel/
+evidence/
+public/example/
+.env*
+!.env.example
+*.tsbuildinfo
+
+.vercel
+.env*

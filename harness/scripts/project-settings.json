@@ -1,0 +1,8 @@
+{
+  "framework": "nextjs",
+  "nodeVersion": "24.x",
+  "ssoProtection": null,
+  "oidcTokenConfig": { "enabled": true },
+  "buildCommand": "npm run build",
+  "installCommand": "npm ci"
+}

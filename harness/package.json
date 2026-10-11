@@ -1,0 +1,37 @@
+{
+  "name": "procurement-audit-harness",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "24.x" },
+  "scripts": {
+    "prepare:evidence": "node scripts/package-evidence.mjs",
+    "dev": "npm run prepare:evidence && next dev",
+    "build": "npm run prepare:evidence && next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "db:init": "node scripts/init-db.mjs"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "latest",
+    "@vercel/blob": "latest",
+    "@vercel/sandbox": "latest",
+    "ai": "latest",
+    "eve": "0.77.0",
+    "next": "latest",
+    "next-auth": "5.0.0-beta.32",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-markdown": "latest",
+    "remark-gfm": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}

@@ -1,5 +1,7 @@
 # Procurement Audit Planning Agent
 
+[Open the live procurement audit app](https://procurement-audit-harness.vercel.app/)
+
 A project that prepares a procurement audit planning pack for West Berkshire Council using public contract rules, spend data, contract notices, and committee papers. Claude reads the evidence and makes judgments; Python calculates figures, selects samples, and verifies the outputs. Findings are risk indicators for investigation, not allegations of wrongdoing.
 
 `CLAUDE.md` is the project guide and full specification. Source files in `data/` are read-only.

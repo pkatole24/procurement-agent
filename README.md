@@ -48,6 +48,3 @@ python .claude/skills/audit-program/build_pack.py --gate
 python scripts/checks/run_checks.py
 ```
 
-## Completion
-
-The steps outlined in the guide have been completed: rules, analytics, history, the revised risk register, auditor decisions, the planning pack, and challenge responses are present. All five risks are approved, all recorded challenges are resolved, and all four pack checks pass.
